@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/jquery-3.1.1.js"></script>
+    <script>
+
+//        //求的数组
+//        for(var i=0;i<a.length;i++){
+//            for(var j=i+1;j< a.length;j++){
+//
+//                if(a[i]==a[j]){
+//                    a.splice(j,1);
+//                   j--;
+//                }
+//            }
+//        }
+//        alert(a);
+//       function (a,b){
+//           return a-b;
+//       }
+
+//var a=[1,5,5,4,4,4,3];
+//for(var i=0;i< a.length;i++){
+//    for(var j=i+1;j< a.length;j++){
+//        if(a[i]==a[j]){
+//            a.splice(j,1);
+//            j--;
+//        }
+//    }
+//}
+//function num(a,b)
+//{
+//    return b - a
+//}
+//document.write(a.sort(num));
+
+//document.write(a.length);
+
+        var arr=[3,4,4,3,2,1];
+        for(var i=0;i<arr.length;i++){
+            for(var j=i+1;j<arr.length;j++){
+                if(arr[i]==arr[j]){
+                    arr.splice(j,1);
+                    j--;
+                }
+            }
+        }
+//        alert(arr);
+        function num(a,b){
+            return a-b;
+        }
+        alert(arr.sort(arr))
+    </script>
+</head>
+<body>
+
+</body>
+</html>
